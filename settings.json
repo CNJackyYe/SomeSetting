@@ -1,28 +1,38 @@
 {
-  "typescript.locale": "zh-CN",
-  "terminal.integrated.rendererType": "dom",
-  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
-  "vetur.validation.template": false,
-  "window.zoomLevel": 0,
-  "extensions.ignoreRecommendations": true,
-  "emmet.syntaxProfiles": {
-    "vue-html": "html",
-    "vue": "html"
-  },
-  "vetur.format.defaultFormatter.html": "js-beautify-html",
-  "vetur.format.defaultFormatterOptions": {
-    "wrap_attributes": "force-aligned"
-  },
-  "prettier.eslintIntegration": true,
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    "html",
-    "vue",
-    {
-      "language": "html"
-    }
-  ],
-  "editor.formatOnSave": true,
-  "editor.formatOnPaste": true
+	"typescript.locale": "zh-CN",
+	"terminal.integrated.rendererType": "dom",
+	"terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+	"vetur.validation.template": false,
+	"window.zoomLevel": 0,
+	"extensions.ignoreRecommendations": true,
+	"emmet.syntaxProfiles": {
+		"vue-html": "html",
+		"vue": "html"
+	},
+	"vetur.format.defaultFormatter.html": "js-beautify-html",
+	"vetur.format.defaultFormatterOptions": {
+		"wrap_attributes": "force-aligned"
+	},
+	"prettier.eslintIntegration": true,
+	"eslint.autoFixOnSave": false,
+	"eslint.validate": [
+		"javascript",
+		"javascriptreact",
+		{
+			"language": "html",
+			"autoFix": true
+		  },
+		  {
+			"language": "vue",
+			"autoFix": true
+		  }
+	],
+	"workbench.colorTheme": "Monokai",
+	"editor.minimap.enabled": false,
+	"editor.fontFamily": "'Comic Sans MS','幼圆' ,'Courier New', monospace",
+	"editor.fontSize": 16,
+	"prettier.semi": false,
+	"prettier.useTabs": true,
+	"vetur.format.scriptInitialIndent": true,
+	"editor.formatOnSave": true
 }
